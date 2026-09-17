@@ -7,14 +7,6 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lzenxveld/loader/Efx;->applyGlassSheen(Landroid/view/View;)V
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x0
-    name = null
-.end annotation
 
 
 # instance fields
@@ -24,11 +16,6 @@
 # direct methods
 .method constructor <init>(Landroid/animation/ValueAnimator;)V
     .locals 0
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()V"
-        }
-    .end annotation
 
     .line 76
     iput-object p1, p0, Lzenxveld/loader/Efx$3;->val$va:Landroid/animation/ValueAnimator;

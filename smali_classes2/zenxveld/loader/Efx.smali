@@ -4,11 +4,6 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lzenxveld/loader/Efx$GlassSheenDrawable;
-    }
-.end annotation
 
 
 # direct methods

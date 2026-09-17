@@ -4,14 +4,6 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lzenxveld/loader/Efx;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x18
-    name = "GlassSheenDrawable"
-.end annotation
 
 
 # instance fields
