@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/ewindowbg" android:layout_width="match_parent" android:layout_height="match_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/gif_view" android:layout_width="190.0dp" android:layout_height="178.0dp" android:layout_marginTop="290.0dp" />
+    <ImageView android:id="@id/gif_view" android:layout_width="150.0dp" android:layout_height="210.0dp" android:layout_marginTop="250.0dp" />
     <LinearLayout android:gravity="center|bottom" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="12.0dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
         <ProgressBar android:id="@id/progressBarSplash" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="40.0dp" android:layout_marginTop="10.0dp" android:layout_marginRight="40.0dp" android:layout_marginBottom="5.0dp" android:max="100" android:progress="0" android:progressDrawable="@drawable/eprogress" style="?android:progressBarStyleHorizontal" />
     </LinearLayout>

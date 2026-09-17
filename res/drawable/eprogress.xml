@@ -10,7 +10,7 @@
         <clip>
             <shape>
                 <corners android:radius="8.0dp" />
-                <solid android:color="#7cc4ff" />
+                <solid android:color="#31d3ff" />
             </shape>
         </clip>
     </item>

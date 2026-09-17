@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:padding="40.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+<LinearLayout android:gravity="center" android:orientation="vertical" android:padding="36.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
     <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
-        <ImageView android:id="@id/app_banner" android:background="@drawable/ic_normal" android:layout_width="440.0px" android:layout_height="440.0px" />
-        <TextView android:textSize="24.0sp" android:textColor="#e6f0ff" android:letterSpacing="0.14" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:layout_marginBottom="24.0dp" android:text="@string/app_name2" android:textAllCaps="true" android:fontFamily="sans-serif-light" />
+        <ImageView android:id="@id/app_banner" android:background="@drawable/ic_normal" android:layout_width="420.0px" android:layout_height="420.0px" />
+        <TextView android:textSize="30.0sp" android:textColor="#eaf6ff" android:letterSpacing="0.22" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:layout_marginBottom="26.0dp" android:text="@string/app_name2" android:textAllCaps="true" android:fontFamily="sans-serif-condensed" />
     </LinearLayout>
-    <LinearLayout android:background="@drawable/panel" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="14.0dp">
-        <Spinner android:id="@id/my_spinner" android:layout_width="match_parent" android:layout_height="wrap_content" android:backgroundTint="@color/boxline" android:padding="10.0dp" android:popupBackground="@drawable/panel_popup" android:popupElevation="12.0dp" />
+    <TextView android:textSize="11.0sp" android:textColor="#6f8fb5" android:letterSpacing="0.28" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="start" android:layout_marginBottom="6.0dp" android:text="LIBRARY" />
+    <LinearLayout android:background="@drawable/panel" android:padding="6.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="14.0dp">
+        <Spinner android:id="@id/my_spinner" android:layout_width="match_parent" android:layout_height="wrap_content" android:backgroundTint="@color/boxline" android:padding="12.0dp" android:popupBackground="@drawable/panel_popup" android:popupElevation="14.0dp" />
     </LinearLayout>
     <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
-        <LinearLayout android:background="@drawable/panel" android:padding="8.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="7.0dp">
-            <Spinner android:id="@id/delay_spinner" android:layout_width="match_parent" android:layout_height="wrap_content" android:backgroundTint="@color/boxline" android:padding="8.0dp" android:popupBackground="@drawable/panel_popup" android:popupElevation="10.0dp" />
+        <LinearLayout android:background="@drawable/panel" android:padding="6.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="7.0dp">
+            <Spinner android:id="@id/delay_spinner" android:layout_width="match_parent" android:layout_height="wrap_content" android:backgroundTint="@color/boxline" android:padding="10.0dp" android:popupBackground="@drawable/panel_popup" android:popupElevation="12.0dp" />
         </LinearLayout>
-        <LinearLayout android:background="@drawable/panel" android:padding="8.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="7.0dp">
-            <Spinner android:id="@id/method_spinner" android:layout_width="match_parent" android:layout_height="wrap_content" android:backgroundTint="@color/boxline" android:padding="8.0dp" android:popupBackground="@drawable/panel_popup" android:popupElevation="10.0dp" />
+        <LinearLayout android:background="@drawable/panel" android:padding="6.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="7.0dp">
+            <Spinner android:id="@id/method_spinner" android:layout_width="match_parent" android:layout_height="wrap_content" android:backgroundTint="@color/boxline" android:padding="10.0dp" android:popupBackground="@drawable/panel_popup" android:popupElevation="12.0dp" />
         </LinearLayout>
     </LinearLayout>
-    <com.google.android.material.button.MaterialButton android:textColor="#0b0e16" android:id="@id/login_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:text="START" app:backgroundTint="#c9dcf5" app:cornerRadius="22.0dp" app:icon="@drawable/ic_run" app:iconGravity="textStart" app:iconTint="#0b0e16" app:rippleColor="#4d7cc4ff" app:strokeColor="#8affffff" app:strokeWidth="2.0dp" />
+    <com.google.android.material.button.MaterialButton android:textColor="#04121e" android:id="@id/login_button" android:layout_width="match_parent" android:layout_height="54.0dp" android:layout_marginTop="20.0dp" android:text="START" android:textSize="16.0sp" android:letterSpacing="0.12" app:backgroundTint="#31d3ff" app:cornerRadius="27.0dp" app:icon="@drawable/ic_run" app:iconGravity="textStart" app:iconTint="#04121e" app:rippleColor="#80ffffff" app:strokeColor="#b331d3ff" app:strokeWidth="2.0dp" />
     <ProgressBar android:id="@id/progressBar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:max="100" android:progress="0" android:progressDrawable="@drawable/eprogress" style="?android:progressBarStyleHorizontal" />
-    <RadioGroup android:gravity="center" android:orientation="horizontal" android:id="@id/radioGroup" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:layout_marginBottom="10.0dp">
-        <RadioButton android:textColor="#cfe0f5" android:id="@id/radio_auto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Auto" android:buttonTint="@color/boxline" />
-        <RadioButton android:textColor="#cfe0f5" android:id="@id/radio_manual" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dp" android:text="Manual" android:buttonTint="@color/boxline" />
+    <RadioGroup android:gravity="center" android:orientation="horizontal" android:id="@id/radioGroup" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dp" android:layout_marginBottom="10.0dp">
+        <RadioButton android:textColor="#cfe6f5" android:id="@id/radio_auto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Auto" android:buttonTint="@color/boxline" />
+        <RadioButton android:textColor="#cfe6f5" android:id="@id/radio_manual" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Manual" android:layout_marginLeft="20.0dp" android:buttonTint="@color/boxline" />
     </RadioGroup>
-    <TextView android:textSize="13.0sp" android:textColor="#7cc4ff" android:letterSpacing="0.16" android:id="@id/root_status" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:text="ROOTED ENVIRONMENT" />
+    <TextView android:textSize="12.0sp" android:textColor="#31d3ff" android:letterSpacing="0.2" android:id="@id/root_status" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dp" android:text="ROOTED ENVIRONMENT" />
 </LinearLayout>
