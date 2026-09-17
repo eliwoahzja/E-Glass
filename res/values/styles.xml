@@ -24,11 +24,11 @@
     <style name="AppTheme" parent="@style/Theme.Material3.DayNight.NoActionBar">
         <item name="android:windowBackground">@drawable/ewindowbg</item>
         <item name="android:textColor">@color/textColor</item>
-        <item name="android:statusBarColor">#05070d</item>
-        <item name="android:navigationBarColor">#05070d</item>
+        <item name="android:statusBarColor">#000000</item>
+        <item name="android:navigationBarColor">#000000</item>
         <item name="android:windowAnimationStyle">@style/EWindowAnim</item>
         <item name="android:colorControlActivated">@color/boxline</item>
-        <item name="android:colorControlHighlight">#3331d3ff</item>
+        <item name="android:colorControlHighlight">#33dc1428</item>
     </style>
     <style name="EWindowAnim" parent="@android:style/Animation.Activity">
         <item name="android:activityOpenEnterAnimation">@anim/slide_in_bottom</item>

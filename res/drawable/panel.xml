@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
-        <layer-list>
-            <item>
-                <shape>
-                    <gradient android:angle="90" android:startColor="#ee0d1a2c" android:centerColor="#f20e2136" android:endColor="#ea0b1930" />
-                    <corners radius="20.0dp" />
-                    <stroke width="2.0dp" color="#6631d3ff" />
-                </shape>
-            </item>
-        </layer-list>
+        <shape>
+            <solid android:color="#3c0a0f" />
+        </shape>
     </item>
-</selector>
+    <item android:top="3.0dp" android:right="3.0dp">
+        <shape>
+            <solid android:color="#0c0c0e" />
+            <stroke android:width="3.0dp" android:color="#dc1428" />
+        </shape>
+    </item>
+</layer-list>
