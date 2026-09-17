@@ -6,8 +6,8 @@
     <uses-permission android:name="android.permission.CLEAR_APP_CACHE"/>
     <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
-    <permission android:name="com.eglass.loader.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
-    <uses-permission android:name="com.eglass.loader.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <permission android:name="zenxveld.loader.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="zenxveld.loader.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
     <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="false" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher" android:supportsRtl="true" android:theme="@style/AppTheme" android:usesCleartextTraffic="true">
         <activity android:exported="true" android:name="zenxveld.loader.SplashActivity" android:theme="@style/AppTheme">
             <intent-filter>
