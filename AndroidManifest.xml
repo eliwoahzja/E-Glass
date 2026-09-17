@@ -16,7 +16,7 @@
             </intent-filter>
         </activity>
         <activity android:exported="false" android:label="@string/app_name" android:name="zenxveld.loader.MainActivity" android:theme="@style/AppTheme" android:windowSoftInputMode="stateHidden"/>
-        <provider android:authorities="zenxveld.loader.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+        <provider android:authorities="com.eglass.loader.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
             <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
             <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
             <meta-data android:name="androidx.profileinstaller.ProfileInstallerInitializer" android:value="androidx.startup"/>
