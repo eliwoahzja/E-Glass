@@ -7,8 +7,8 @@ sdkInfo:
   minSdkVersion: 28
   targetSdkVersion: 35
 versionInfo:
-  versionCode: 20260307
-  versionName: EG-1.6
+  versionCode: 20260308
+  versionName: EG-1.7
 resourcesInfo:
   packageId: 127
 doNotCompress:

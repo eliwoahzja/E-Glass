@@ -3619,6 +3619,23 @@
 
     invoke-static {v5}, Lzenxveld/loader/Efx;->startBannerPulse(Landroid/widget/ImageView;)V
 
+
+    # E FX v2: liquid-glass sheen sweep on START button + library spinner
+    sget v5, Lzenxveld/loader/R$id;->login_button:I
+
+    invoke-virtual {p0, v5}, Lzenxveld/loader/MainActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object v5
+
+    invoke-static {v5}, Lzenxveld/loader/Efx;->applyGlassSheen(Landroid/view/View;)V
+
+    sget v5, Lzenxveld/loader/R$id;->my_spinner:I
+
+    invoke-virtual {p0, v5}, Lzenxveld/loader/MainActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object v5
+
+    invoke-static {v5}, Lzenxveld/loader/Efx;->applyGlassSheen(Landroid/view/View;)V
     .line 102
     const-string p1, "loaderPrefs"
 
