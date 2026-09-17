@@ -2221,7 +2221,6 @@
     move-result-object p1
 
 
-    move-object p1, v3
 
     :cond_ec
 
